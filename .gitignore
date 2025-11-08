@@ -1,29 +1,21 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Compiled class files
+*.class
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Package files
+*.jar
+!libraries/Pokemon.jar
 
-### VS Code ###
-.vscode/
+# IDE files
+.idea/
+*.iml
+*.iws
 
-### Mac OS ###
+# Build directories
+out/
+target/
+production/
+
+# System files
 .DS_Store
+Thumbs.db
