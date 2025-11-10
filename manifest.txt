@@ -1,2 +1,2 @@
 Main-Class: Lab2
-Class-Path: .
+Class-Path: libraries/Pokemon.jar
