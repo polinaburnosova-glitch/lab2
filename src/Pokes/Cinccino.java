@@ -5,9 +5,6 @@ public final class Cinccino extends Minccino{
         super(name, level);
         setType(Type.NORMAL);
         setStats(75, 95, 60, 65, 60, 115);
-        setMove(new Attacks.Thunderbolt(),
-                new Attacks.WorkUp(),
-                new Attacks.ConfideAttack(),
-                new Attacks.FocusBlast());
+        addMove(new Attacks.FocusBlast());
     }
 }
